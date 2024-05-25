@@ -38,7 +38,7 @@ const Contact = () => {
       message:form.message,
     },
     import.meta.env.VITE_EMAIL_PUBLIC_KEY,
-    console.log(import.meta.env.VITE_EMAIL_PUBLIC_KEY,import.meta.env.VITE_EMAIL_TEMPLATE_ID)
+   
    ).then(()=>{
     setLoading(false)
     alert('Thank you! I will get back to you ASAP.')
